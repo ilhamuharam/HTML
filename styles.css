@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    line-height: 1.2;
+}
+
+nav {
+    position: sticky;
+    overflow: hidden;
+    top: 0;
+    padding: 32px;
+    padding-left: 0;
+    padding-right: 0;
+    font-size: 16px;
+    background: rgba(255, 255, 255, 0.75);
+    backdrop-filter: blur(20px);
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+.nav-left {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    float: left;
+    height: 24px;
+    margin-left: 10%;
+}
+
+.nav-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    float: right;
+    height: 24px;
+    margin-right: 10%;
+}
+
+.home {
+    font-weight: 700;
+    margin-right: 48px;
+    background: linear-gradient(to right, #2B7ABD 0%, #39A0F7  100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.cv {
+    margin-left: 48px;
+}
+
+.logo {
+    max-width: 20px;
+    max-height: 20px;
+    align-items: center;
+}
+
+section {
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.hero {
+    height: 100vh;
+    background-image: url(./image/Hero.jpg);
+}
+
+.hero h1 {
+    font-size: 60px;
+    font-weight: 700;
+    padding: 16px 0;
+    text-shadow: 5px 5px 68px white;
+    color: black;
+}
+
+.hero h4 {
+    font-size: 26px;
+    font-weight: 500;
+    text-shadow: 5px 5px 26px white;
+    color: black;
+}
+
+.hero h5 {
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: 0 0 16px white;
+    color: black;
+    margin-left: 6px;
+}
+
+.hero button {
+    height: 60px;
+    padding: 16px 32px;
+    border-radius: 1000em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 48px 0;
+    border: none;
+    outline: 0;
+    color: white;
+    background-image: linear-gradient(to right, #2B7ABD 0%, #39A0F7  100%);
+    box-shadow: 5px 5px 20px rgba(107, 157, 245, 0.75);
+    text-transform: uppercase;
+}
+
+.about button {
+    height: 48px;
+    width: 200px;
+    padding: 16px 32px;
+    border-radius: 1000em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    border: none;
+    outline: 0;
+    color: white;
+    background-image: linear-gradient(to right, #2B7ABD 0%, #39A0F7  100%);
+    box-shadow: 5px 5px 20px rgba(107, 157, 245, 0.75);
+    text-transform: uppercase;
+    text-align: center;
+}
+
+footer button {
+    height: 60px;
+    padding: 16px 32px;
+    border-radius: 1000em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 24px 0;
+    border: none;
+    outline: 0;
+    color: white;
+    background-image: linear-gradient(to right, #2B7ABD 0%, #39A0F7  100%);
+    box-shadow: 5px 5px 20px rgba(107, 157, 245, 0.75);
+    text-transform: uppercase;
+}
+
+.footer-info {
+    padding: 10vh 10%;
+}
+
+h5 {
+    font-size: 16px;
+    font-weight: 500;
+    text-shadow: 0 0 16px white;
+    color: black;
+}
+
+#h5-bold {
+    font-size: 16px;
+    font-weight: 700;
+    text-shadow: 0 0 16px white;
+    color: black;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 700;
+    text-shadow: 0 0 16px white;
+    color: black;
+}
+
+h4 {
+    font-size: 26px;
+    font-weight: 500;
+    text-shadow: 5px 5px 26px white;
+    color: black;
+}
+
+#h4-bold {
+    font-size: 26px;
+    font-weight: 700;
+    text-shadow: 5px 5px 26px white;
+    color: black;
+}
+
+.hero-info {
+    padding: 25vh 10%;
+}
+
+.about {
+    height: 100vh;
+    background-image: url(./image/About.jpg);
+    padding: 25vh 10%;
+}
+
+.profile-photo {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.about-left {
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.about-right {
+    float: right;
+    width: 70%;
+}
+
+.bottom-footer {
+    margin: auto;
+    background-image: linear-gradient(to right, #2B7ABD 0%, #39A0F7  100%);
+    color: white;
+    padding: 16px;
+    text-align: center;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 32px 0 0 0;
+}
+
+#footer-social {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#footer-desc {
+    width: 45%;
+}

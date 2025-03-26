@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ilham Muharam's Website</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    
+    <!-- css diawali dng titik = select class -->
+    <style>
+      * {
+        margin: 0;
+        font-family: 'Josefin Sans', sans-serif;
+      }
+
+      section {
+        background-attachment: fixed;
+        background-size: cover;
+      }
+
+      .hero {
+        height: 100vh;
+        background-image: url(./image/Kabukimono.jpg);
+      }
+
+      .projects {
+        height: 100vh;
+        background-image: url(./image/Irminsul.jpg);
+        padding: 10% 10%;
+      }
+
+      .contact {
+        height: 100vh;
+        background-image: url(./image/Nahida.jpg);
+      }
+
+      .title-section {
+        color: whitesmoke;
+        font-weight: 700;
+        padding: 24px;
+        font-size: 32px;
+      }
+
+      .curtain {
+        background-color: whitesmoke;
+        position: fixed;
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+
+      }
+
+      .curtain h1{
+        font-size: 12em;
+        font-weight: 700;
+        background-image: url(./image/Kabukimono.jpg);
+        text-transform: uppercase;
+        
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <section class="hero">
+      <div class="curtain">
+        <h2>Hi,<br/>I'm Ilham Muharam!</h2>
+        <h1 class="text-curtain">FRONT-END<br/>DEVELOPER</h1>
+      </div>
+    </section>
+    <section class="projects">
+      <h1 class="title-section">MY PROJECTS</h1>
+    </section>
+    <section class="contact"></section>
+
+    <script>
+      let curtain=document.querySelector('curtain');
+
+      window.addEventListener("scroll", function(){
+        let scroll = window.scrollY;
+        curtain.style.left = scroll + 'px';
+      })
+    </script>
+  </body>
+</html>
