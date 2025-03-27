@@ -154,8 +154,8 @@ footer button {
 }
 
 .footer-info {
-    padding: 10vh 10%;
-    height: 45vh;
+    padding: 25vh 10%;
+    height: auto;
     background-image: url(./image/Footer.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -202,8 +202,10 @@ h4 {
 }
 
 .about {
-    height: 100vh;
+    height: auto;
     background-image: url(./image/About.jpg);
+    background-size: cover;
+    background-attachment: fixed;
     padding: 25vh 10%;
 }
 
@@ -214,15 +216,20 @@ h4 {
     margin: auto;
 }
 
+.about-layout {
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+}
 .about-left {
-    float: left;
     width: 25%;
     text-align: center;
 }
 
 .about-right {
-    float: right;
-    width: 70%;
+    width: 65%;
+    overflow: hidden;
+    text-align: left;
 }
 
 .bottom-footer {
@@ -291,4 +298,124 @@ footer #h5-bold {
     font-weight: 700;
     text-shadow: 0 0 16px black;
     color: white;
+}
+
+.filter-button {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 48px 0;
+}
+
+.filter-button button {
+    height: auto;
+    padding: 16px 32px;
+    border-radius: 1000em;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #2B7ABD;
+    background-color: white;
+    text-transform: uppercase;
+    text-align: center;
+    border: none;
+}
+
+.filter-button button:active {
+    background-image: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
+    color: white;
+    border: white;
+}
+
+.filter-button button:hover {
+    background-color: white;
+    background: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border: none;
+}
+
+nav a:hover {
+    background: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.services {
+    height: auto;
+    background-image: url(./image/Nilou.png);
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 25vh 10%;
+}
+
+.a-text:hover {
+    background: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.card img {
+    height: 200px;
+    width: 300px;
+    padding: 10px;
+    object-fit: cover;
+    border-radius: 32px;
+}
+
+.card {
+    width: 320px;
+    height: auto;
+    border-radius: 24px;
+    overflow: hidden;
+    padding: 8px;
+    background-color: white;
+}
+
+.label {
+    display: flex;
+    justify-content: flex-start;
+    gap: 4%;
+    padding: 10px
+}
+
+.card-title {
+    padding: 10px;
+}
+
+.label-info {
+    text-align: center;
+    background-color: #2B7ABD;
+    color: white;
+    padding: 2% 5%;
+    border-radius: 1000em;
+}
+
+.card-body {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8%;
+    padding: 8px 16px;
+}
+
+.a-services {
+    text-decoration: none;
+    color: black;
+}
+
+.card-organ {
+    display: flex;
+    justify-content: flex-start;
+    gap: 8px;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.filterable-cards {
+    height: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0 0 24px 0;
+    flex-wrap: wrap;
+    gap: 16px;
 }

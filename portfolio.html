@@ -12,13 +12,13 @@
     <nav>
         <div class="nav-left">
             <div>  
-                <a class="home" href="#">Ilham Muharam</a>
+                <a class="home" href="#home">Ilham Muharam</a>
             </div>
 
             <div>
-                <a class="nav" href="#">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a class="nav" href="#">What I Do</a>&nbsp;&nbsp;&nbsp;&nbsp;
-                <a class="nav" href="#">Contact</a>
+                <a class="nav a-text" href="#about-me">About</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="nav a-text" href="#services">What I Do</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a class="nav a-text" href="#contact">Contact</a>
             </div>
         </div>
 
@@ -30,12 +30,12 @@
             </div>
 
             <div>
-                <a class="cv" href="#">See Full CV</a>
+                <a class="cv a-text" href="#">See Full CV</a>
             </div>
         </div>
     </nav>
 
-    <section class="hero">
+    <section class="hero" id="home">
         <div class="hero-info">
             <h4>👋 Hi, my name is</h4>
             <h1>ILHAM MUHARAM</h1>
@@ -46,8 +46,9 @@
         </div>
     </section>
     
-    <section class="about">
-        <div class="about-left">
+    <section class="about" id="about-me">
+        <div class="about-layout">
+            <div class="about-left">
             <img class="profile-photo" src="./image/me.png" alt="Ilham Muharam">
             <br><br><h2>ILHAM MUHARAM</h2><br><br>
             <h5>
@@ -65,9 +66,9 @@
             <a href="https://bit.ly/PortfolioByIlham"><button>
                 My Portfolio
             </button></a>
-        </div>
+            </div>
 
-        <div class="about-right">
+            <div class="about-right">
             <h4 id="h4-bold">About Me</h4><br>
             <p>👋 Hi, I am Ilham Muharam!<br><br>I am a Computer Science graduate with a passion for technology, design, and problem-solving. With hands-on experience in WPF desktop applications and an AR Unity project, I also specialize in UI/UX design and frontend development, using tools like Adobe Illustrator, Figma, HTML, CSS and JavaScript. I also do graphic design! As a music coach, I have honed skills in leadership and communication that complement my tech career. I am currently expanding my knowledge in data science to bridge creativity with analytical problem-solving.<br><br>🚀 If you're looking for someone to blend technology, creativity, and user experience, let us connect!</p>
             <br><br><h4 id="h4-bold">Work Experience</h4><br>
@@ -93,10 +94,391 @@
                     <p>09/2021 - 10/2021</p><br>
                 </li>
             </ul>      
+            </div>
         </div>
     </section>
 
-    <footer>
+    <section class="services" id="services">
+        <div class="services-info">
+            <h4 id="h4-bold">What I Do</h4><br>
+            <p>Here is a list of projects I have done, from personal projects to work projects.</p>
+        </div>
+        <div class="filter-button">
+            <button class="filter-active" data-name="all">All</button>
+            <button data-name="uiux">UI/UX Design</button>
+            <button data-name="graphic">Graphic Design</button>
+            <button data-name="app-web">Web & App development </button>
+            <button data-name="music">Music</button>
+        </div>
+
+        <div class="filterable-cards">
+            <div class="card" data-name="uiux">
+                <div class="card-title">
+                    <h4 id="h4-bold">Lazada Web Page Redesign</h4><br>
+                    <p>Redesigned the Lazada product page to improve user experience and visual appeal.</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>Figma</p>
+                    </div>
+                    <!--<div class="label-info">
+                        <p>Adobe Illustrator</p>
+                    </div>-->
+                </div>
+                <img src="./image/Lazada-Redesign.jpg" alt="">
+                <div class="card-body">
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-brands fa-figma fa-lg"></i>
+                            <p>Prototype</p>
+                        </div>
+                    </a>
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" data-name="uiux">
+                <div class="card-title">
+                    <h4 id="h4-bold">Info-Kuliner Home Page Redesign</h4><br>
+                    <p>Redesigned the Info-Kuliner page to improve user experience and visual appeal.</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>Figma</p>
+                    </div>
+                    <!--<div class="label-info">
+                        <p>Adobe Illustrator</p>
+                    </div>-->
+                </div>
+                <img src="./image/Info-Kuliner.png" alt="">
+                <div class="card-body">
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-brands fa-figma fa-lg"></i>
+                            <p>Prototype</p>
+                        </div>
+                    </a>
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" data-name="uiux">
+                <div class="card-title">
+                    <h4 id="h4-bold">Wedding Website Design</h4><br>
+                    <p>Designed a wedding website for a client to showcase their wedding details and photos.</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>Figma</p>
+                    </div>
+                    <div class="label-info">
+                        <p>Illustrator</p>
+                    </div>
+                </div>
+                <img src="./image/Wedding-Website.png" alt="">
+                <div class="card-body">
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-brands fa-figma fa-lg"></i>
+                            <p>Prototype</p>
+                        </div>
+                    </a>
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" data-name="uiux">
+                <div class="card-title">
+                    <h4 id="h4-bold">Laundryment Website Design</h4><br>
+                    <p>Designed a laundry service website for a client to showcase their services and prices.</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>Adobe XD</p>
+                    </div>
+                    <div class="label-info">
+                        <p>Illustrator</p>
+                    </div>
+                </div>
+                <img src="./image/Laundryment.PNG" alt="">
+                <div class="card-body">
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-brands fa-figma fa-lg"></i>
+                            <p>Prototype</p>
+                        </div>
+                    </a>
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" data-name="app-web">
+                <div class="card-title">
+                    <h4 id="h4-bold">Hija'i AR Mobile Application</h4><br>
+                    <p>Thesis project - Designed an Augmented Reality mobile app to help people learn the hijaiyah letters.</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>Unity</p>
+                    </div>
+                    <div class="label-info">
+                        <p>Vuforia Engine</p>
+                    </div>
+                </div>
+                <img src="./image/HijaiAR.PNG" alt="">
+                <div class="card-body">
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-brands fa-unity fa-lg"></i>
+                            <p>Demo</p>
+                        </div>
+                    </a>
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" data-name="app-web">
+                <div class="card-title">
+                    <h4 id="h4-bold">Birthday Website with Light & Dark UI</h4><br>
+                    <p>Designed a birthday website for a client to showcase their birthday details and photos.</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>HTML/CSS/JS</p>
+                    </div>
+                    <div class="label-info">
+                        <p>Website</p>
+                    </div>
+                </div>
+                <img src="./image/Birthday-Web.png" alt="">
+                <div class="card-body">
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-desktop fa-lg"></i>
+                            <p>Demo</p>
+                        </div>
+                    </a>
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" data-name="app-web">
+                <div class="card-title">
+                    <h4 id="h4-bold">Simono Desktop Application</h4><br>
+                    <p>Internship project - Designed a desktop app of online prisoners visit with face recognition feature.</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>WPF</p>
+                    </div>
+                    <div class="label-info">
+                        <p>C#</p>
+                    </div>
+                </div>
+                <img src="./image/Simono.PNG" alt="">
+                <div class="card-body">
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-desktop fa-lg"></i>
+                            <p>Demo</p>
+                        </div>
+                    </a>
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" data-name="graphic">
+                <div class="card-title">
+                    <h4 id="h4-bold">4 Decennary SPDC - Sticker Design</h4><br>
+                    <p>Designed a sticker for the 40th anniversary of Sadaluhung Padjadjaran Drum Corps.</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>Illustrator</p>
+                    </div>
+                    <div class="label-info">
+                        <p>Photoshop</p>
+                    </div>
+                </div>
+                <img src="./image/Decennary.PNG" alt="">
+                <div class="card-body">
+                    <!--<a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-desktop fa-lg"></i>
+                            <p>Demo</p>
+                        </div>-->
+                    </a>
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" data-name="graphic">
+                <div class="card-title">
+                    <h4 id="h4-bold">SPDC Goes to IDCI 2024 - T-Shirt Design</h4><br>
+                    <p>Designed a t-shirt for the Sadaluhung Padjadjaran Drum Corps to wear at the IDCI 2024 event.</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>Illustrator</p>
+                    </div>
+                    <div class="label-info">
+                        <p>Photoshop</p>
+                    </div>
+                </div>
+                <img src="./image/T-Shirt.PNG" alt="">
+                <div class="card-body">
+                    <!--<a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-desktop fa-lg"></i>
+                            <p>Demo</p>
+                        </div>-->
+                    </a>
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" data-name="graphic">
+                <div class="card-title">
+                    <h4 id="h4-bold">SPDC - Social Media Management</h4><br>
+                    <p>Designed social media posts of Sadaluhung Padjadjaran Drum Corps, specifically Instagram for over a year.</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>Illustrator</p>
+                    </div>
+                    <div class="label-info">
+                        <p>Photoshop</p>
+                    </div>
+                    <div class="label-info">
+                        <p>Insta</p>
+                    </div>
+                </div>
+                <img src="./image/Feeds-SPDC.png" alt="">
+                <div class="card-body">
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-brands fa-instagram fa-lg"></i>
+                            <p>The Feeds</p>
+                        </div>
+                    </a>
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+
+            <div class="card" data-name="music">
+                <div class="card-title">
+                    <h4 id="h4-bold">Brass Ensemble - BMBC 2024</h4><br>
+                    <p>Won 2nd place with the repertoire Hibike Euphonium! OST (Crescent Moon Dance) and Wonka OST (Pure Imagination)</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>Bandung DC</p>
+                    </div>
+                    <div class="label-info">
+                        <p>Baritone Horn</p>
+                    </div>
+                </div>
+                <img src="./image/BMBC-2024.jpg" alt="">
+                <div class="card-body">
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-music fa-lg"></i>
+                            <p>The Performance</p>
+                        </div>
+                    </a>
+                    <!--<a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>-->
+                </div>
+            </div>
+
+            <div class="card" data-name="music">
+                <div class="card-title">
+                    <h4 id="h4-bold">SoundSport - IDC International 2024</h4><br>
+                    <p>Won 3rd place in the Music Performance category for performing the reference song OST Fantastic Beast</p>
+                </div>
+                <div class="label">
+                    <div class="label-info">
+                        <p>SPDC</p>
+                    </div>
+                    <div class="label-info">
+                        <p>Mellophone</p>
+                    </div>
+                </div>
+                <img src="./image/IDCI-2024.JPG" alt="">
+                <div class="card-body">
+                    <a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-music fa-lg"></i>
+                            <p>The Performance</p>
+                        </div>
+                    </a>
+                    <!--<a class="a-services" href="#" target="_blank">
+                        <div class="card-organ">
+                            <i class="fa-solid fa-book fa-lg"></i>
+                            <p>Doc</p>
+                        </div>
+                    </a>-->
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="contact">
         <div class="footer-info">
             <h4 id="h4-bold">LET'S WORK TOGETHER!</h4>
             <a href="mailto:ilhamuharam@gmail.com">
@@ -113,7 +495,7 @@
                             <i class="fa-solid fa-envelope fa-lg"></i>
                         </li>
                         <li>
-                            <a href="mailto:ilhamuharam@gmail.com">
+                            <a>
                                 &nbsp;ilhamuharam@gmail.com
                             </a>
                         </li>
@@ -155,16 +537,16 @@
                     <h5 id="h5-bold">SITE</h5><br>
                     <ul>
                         <li>
-                            <a href="#">Home</a>
+                            <a class="a-text" href="#home">Home</a>
                         </li>
                         <li>
-                            <a href="#">About</a>
+                            <a class="a-text" href="#about-me">About</a>
                         </li>
                         <li>
-                            <a href="#">What I Do</a>
+                            <a class="a-text" href="#services">What I Do</a>
                         </li>
                         <li>
-                            <a href="#">Contact</a>
+                            <a class="a-text" href="#contact">Contact</a>
                         </li>
                     </ul>
                 </div>
@@ -178,7 +560,7 @@
         </div>
         
         <div class="bottom-footer">
-            <p>© 2025 Ilham Muharam. All Rights Reserved.</p>
+            <p>Designed & Developed by Ilham Muharam © 2025. All Rights Reserved.</p>
         </div>
     </footer>
 </body>
