@@ -339,11 +339,11 @@ footer #h5-bold {
     border: none;
 }
 
-.filter-button button:active {
+/*.filter-button button:active {
     background-image: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
     color: white;
     border: white;
-}
+}*/
 
 .filter-button button:hover {
     background-color: white;
