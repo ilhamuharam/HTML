@@ -120,6 +120,12 @@ footer {
     text-transform: uppercase;
 }
 
+.hero button:hover {
+    background-image: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
+    color: white;
+    box-shadow: 5px 5px 20px rgba(245, 174, 107, 0.75);
+}
+
 .about button {
     height: 48px;
     width: 200px;
@@ -137,6 +143,12 @@ footer {
     text-align: center;
 }
 
+.about button:hover {
+    background-image: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
+    color: white;
+    box-shadow: 5px 5px 20px rgba(245, 174, 107, 0.75);
+}
+
 footer button {
     height: 60px;
     padding: 16px 32px;
@@ -151,6 +163,12 @@ footer button {
     background-image: linear-gradient(to right, #2B7ABD 0%, #39A0F7  100%);
     box-shadow: 5px 5px 20px rgba(107, 157, 245, 0.75);
     text-transform: uppercase;
+}
+
+footer button:hover {
+    background-image: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
+    color: white;
+    box-shadow: 5px 5px 20px rgba(245, 174, 107, 0.75);
 }
 
 .footer-info {
@@ -343,7 +361,7 @@ nav a:hover {
 
 .services {
     height: auto;
-    background-image: url(./image/Nilou.png);
+    background-image: url(./image/Services.jpg);
     background-size: cover;
     background-attachment: fixed;
     padding: 25vh 10%;
@@ -370,6 +388,7 @@ nav a:hover {
     overflow: hidden;
     padding: 8px;
     background-color: white;
+    box-shadow: 5px 5px 20px rgba(196, 203, 209, 0.75);
 }
 
 .label {
