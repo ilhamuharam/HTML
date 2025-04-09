@@ -55,6 +55,27 @@ nav a {
     -webkit-text-fill-color: transparent;
 }
 
+.menu-toggle {
+    display: none; /* Hide the toggle button on large screens */
+}
+
+@media (max-width: 768px) { /* For smaller screens */
+    .nav-a {
+        display: none; /* Hide the menu by default */
+        flex-direction: column; /* Stack menu items */
+    }
+
+    .nav-right {
+        display: none;
+        flex-direction: column;
+    }
+
+    .menu-toggle {
+        display: block; /* Show the toggle button */
+        float: right;
+        margin-right: 10%;
+    }
+}
 
 .cv {
     margin-left: 48px;
@@ -75,6 +96,25 @@ footer {
     background-attachment: fixed;
     background-size: cover;
 }
+
+/* If the screen size is 425px wide or more, set the font-size of <div> to 60px
+@media screen and (min-width: 425px) {
+    #name {
+      font-size: 60px;
+    }
+  }
+*/
+  
+  /* If the screen size is 425px wide or less, set the font-size of <div> to 48px */
+  @media screen and (max-width: 375px) {
+    #name {
+      font-size: 14vw;
+    }
+
+    #prename {
+        font-size: 16px;
+    }
+  }
 
 .hero {
     height: 100vh;
@@ -236,18 +276,30 @@ h4 {
 
 .about-layout {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
-    gap: 16px;
+    gap: 48px;
 }
 .about-left {
-    width: 25%;
+    width: 200px;
     text-align: center;
+    margin: 0 auto;
 }
 
 .about-right {
-    width: 65%;
+    flex: 1; /* Adjusts dynamically on larger screens */
     overflow: hidden;
     text-align: left;
+}
+
+@media (max-width: 768px) { /* For mobile and tablet screens */
+    .about-layout {
+        display: block; /* Stacks content vertically */
+    }
+
+    .about-right {
+        margin-top: 48px; /* Adds space between the two contents */
+    }
 }
 
 .bottom-footer {
@@ -272,15 +324,26 @@ footer a {
     display: flex;
     justify-content: space-between;
     padding: 32px 0 0 0;
+    flex-wrap: wrap;
+}
+
+#footer-contact {
+    padding: 16px 0;
 }
 
 #footer-social {
     display: flex;
     justify-content: flex-start;
+    padding: 0 16px 0 0;
 }
 
 #footer-desc {
-    width: 45%;
+    width: 400px;
+    padding: 16px 0;
+}
+
+#footer-page {
+    padding: 16px 0 24px 0;
 }
 
 footer h5 {
@@ -323,6 +386,7 @@ footer #h5-bold {
     justify-content: center;
     gap: 16px;
     padding: 48px 0;
+    flex-wrap: wrap;
 }
 
 .filter-button button {
@@ -333,10 +397,12 @@ footer #h5-bold {
     font-size: 16px;
     font-weight: 700;
     color: #2B7ABD;
-    background-color: white;
+    border-width: 3px;
+    border-color: #2B7ABD;
+    background-color: transparent;
     text-transform: uppercase;
     text-align: center;
-    border: none;
+    border: solid;
 }
 
 /*.filter-button button:active {
@@ -346,11 +412,13 @@ footer #h5-bold {
 }*/
 
 .filter-button button:hover {
-    background-color: white;
     background: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-    border: none;
+    background-clip: padding-box;
+    border: solid;
+    color: white;
+    border-width: 3px;
+    border-color: transparent;
+
 }
 
 nav a:hover {
@@ -375,31 +443,30 @@ nav a:hover {
 
 .card img {
     height: 200px;
-    width: 300px;
-    padding: 10px;
     object-fit: cover;
-    border-radius: 32px;
+    border-radius: 16px;
+    width: 100%;
 }
 
 .card {
-    width: 320px;
+    width: 300px;
     height: auto;
     border-radius: 24px;
     overflow: hidden;
-    padding: 8px;
+    padding: 16px;
     background-color: white;
-    box-shadow: 5px 5px 20px rgba(196, 203, 209, 0.75);
+    box-shadow: 5px 5px 30px rgba(196, 203, 209, 0.5);
 }
 
 .label {
     display: flex;
     justify-content: flex-start;
     gap: 4%;
-    padding: 10px
+    padding: 10px 0;
 }
 
 .card-title {
-    padding: 10px;
+    padding: 10px 0;
 }
 
 .label-info {
