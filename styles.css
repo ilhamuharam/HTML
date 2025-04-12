@@ -281,8 +281,9 @@ h4 {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 48px;
+    gap: 8vw;
 }
+
 .about-left {
     width: 200px;
     text-align: center;
