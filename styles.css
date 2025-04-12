@@ -59,7 +59,7 @@ nav a {
     display: none; /* Hide the toggle button on large screens */
 }
 
-@media (max-width: 768px) { /* For smaller screens */
+@media (max-width: 933px) { /* For smaller screens */
     .nav-a {
         display: none; /* Hide the menu by default */
         flex-direction: column; /* Stack menu items */
@@ -158,6 +158,7 @@ footer {
     background-image: linear-gradient(to right, #2B7ABD 0%, #39A0F7  100%);
     box-shadow: 5px 5px 20px rgba(107, 157, 245, 0.75);
     text-transform: uppercase;
+    cursor: pointer;
 }
 
 .hero button:hover {
@@ -181,6 +182,7 @@ footer {
     box-shadow: 5px 5px 20px rgba(107, 157, 245, 0.75);
     text-transform: uppercase;
     text-align: center;
+    cursor: pointer;
 }
 
 .about button:hover {
@@ -198,6 +200,7 @@ footer button {
     font-weight: 700;
     margin: 24px 0;
     border: none;
+    cursor: pointer;
     outline: 0;
     color: white;
     background-image: linear-gradient(to right, #2B7ABD 0%, #39A0F7  100%);
@@ -391,7 +394,7 @@ footer #h5-bold {
 
 .filter-button button {
     height: auto;
-    padding: 16px 32px;
+    padding: 8px 24px;
     border-radius: 1000em;
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
@@ -403,6 +406,7 @@ footer #h5-bold {
     text-transform: uppercase;
     text-align: center;
     border: solid;
+    cursor: pointer;
 }
 
 /*.filter-button button:active {
@@ -411,14 +415,11 @@ footer #h5-bold {
     border: white;
 }*/
 
-.filter-button button:hover {
+button.filter-active {
     background: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
-    background-clip: padding-box;
-    border: solid;
     color: white;
-    border-width: 3px;
-    border-color: transparent;
-
+    border: none;
+    padding: 11px 27px;
 }
 
 nav a:hover {
@@ -456,6 +457,12 @@ nav a:hover {
     padding: 16px;
     background-color: white;
     box-shadow: 5px 5px 30px rgba(196, 203, 209, 0.5);
+    transition: all 0.3s ease;
+    flex-grow: 1;
+}
+
+.card.hide {
+    display: none;
 }
 
 .label {
@@ -473,7 +480,7 @@ nav a:hover {
     text-align: center;
     background-color: #2B7ABD;
     color: white;
-    padding: 2% 5%;
+    padding: 8px 5%;
     border-radius: 1000em;
 }
 
