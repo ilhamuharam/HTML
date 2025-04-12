@@ -303,6 +303,7 @@ h4 {
 
     .about-right {
         margin-top: 48px; /* Adds space between the two contents */
+        padding-top: 5%;
     }
 }
 
