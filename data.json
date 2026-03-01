@@ -365,7 +365,7 @@
       "description": "Won 2nd place in the Drum Corps and won other 7 categories with Nirvana - Like a Teen Spirit as the reference.",
       "category": "music",
       "tools": ["SPDC", "Mellophone"],
-      "image": "./image/IDCI-2025.jpg",
+      "image": "./image/JDCI-2025.jpg",
       "links": [
         {
           "type": "The Performance",
@@ -381,6 +381,21 @@
       "category": "music",
       "tools": ["Gita Pakuan", "Mellophone"],
       "image": "./image/Fornas-2023.jpg",
+      "links": [
+        {
+          "type": "The Performance",
+          "icon": "fa-solid fa-music fa-lg",
+          "url": "https://youtu.be/w5HcTu39yy4?t=1363"
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "title": "Djarum Supermoment 2025 Goes to Campus",
+      "description": "Has become a marching band talent for the Djarum Supermoment 2025 event, to lead the parade.",
+      "category": "music",
+      "tools": ["Gita Pakuan", "Mellophone"],
+      "image": "./image/Supermoment-2025.jpg",
       "links": [
         {
           "type": "The Performance",
