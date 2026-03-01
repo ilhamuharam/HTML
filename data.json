@@ -162,7 +162,7 @@
       "description": "Won 3rd place in the Music Performance category for performing the reference song OST Fantastic Beast.",
       "category": "music",
       "tools": ["SPDC", "Mellophone"],
-      "image": "./image/IDCI-2024.jpg",
+      "image": "./image/IndoDCI-2024.jpg",
       "links": [
         {
           "type": "The Performance",
@@ -394,7 +394,7 @@
       "title": "Djarum Supermoment 2025 Goes to Campus",
       "description": "Has become a marching band talent for the Djarum Supermoment 2025 event, to lead the parade.",
       "category": "music",
-      "tools": ["Gita Pakuan", "Mellophone"],
+      "tools": ["Bandung DC", "Mellophone"],
       "image": "./image/Supermoment-2025.jpg",
       "links": []
     }
