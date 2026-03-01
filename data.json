@@ -1,0 +1,393 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Lazada Desktop Web Page Redesign",
+      "description": "Redesigned the Lazada product page to improve user experience, visual appeal, functionality, and overall performance.",
+      "category": "uiux",
+      "tools": ["Figma"],
+      "image": "./image/Lazada.png",
+      "links": [
+        {
+          "type": "Prototype",
+          "icon": "fa-brands fa-figma fa-lg",
+          "url": "https://www.figma.com/proto/RX0O6iQ8htaSZBuDiHYGJr/-Playground--Lazada-Web-Redesign?node-id=19-360&starting-point-node-id=19%3A360&scaling=scale-down-width&content-scaling=fixed&t=l0cHFNtwfe8x4A0t-1"
+        },
+        {
+          "type": "Doc",
+          "icon": "fa-solid fa-book fa-lg",
+          "url": "https://www.figma.com/slides/xqk2iV8Fl0pCM3HirgTqZ8/Lazada-Product-Page-Redesign?t=Grc1HS3Pm4kZOswK-1"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Info-Kuliner Home Page Redesign",
+      "description": "Redesigned the Info-Kuliner home page to improve user experience, visual appeal, accessibility, and user engagement.",
+      "category": "uiux",
+      "tools": ["Figma"],
+      "image": "./image/Info-Kuliner.png",
+      "links": [
+        {
+          "type": "Prototype",
+          "icon": "fa-brands fa-figma fa-lg",
+          "url": "https://www.figma.com/proto/T5ZyHSry8I7NpzZtvu313t/Info-Kuliner-Home-Page-Redesign?node-id=54-1102&p=f&t=JR9rxkf5JUk0G4Dn-1&scaling=scale-down-width&content-scaling=fixed&page-id=1%3A3"
+        },
+        {
+          "type": "Doc",
+          "icon": "fa-solid fa-book fa-lg",
+          "url": "https://www.figma.com/slides/JsX5VsoI8atibry5YYYyDv/DSF-36-Project-Portfolio?t=Grc1HS3Pm4kZOswK-1"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Wedding Invitation Website Design",
+      "description": "Designed an elegant wedding website for a client with floral animations and clickable navigation bar.",
+      "category": "uiux",
+      "tools": ["Figma"],
+      "image": "./image/Wed-Web.png",
+      "links": [
+        {
+          "type": "Mobile",
+          "icon": "fa-brands fa-figma fa-lg",
+          "url": "https://www.figma.com/proto/HrLkBgrLJPWKsRLfLToNIy/Wedding-App-Design?node-id=2012-314&p=f&t=OZQthxrJbcVrPRBv-1&scaling=scale-down&content-scaling=fixed&page-id=2012%3A303"
+        },
+        {
+          "type": "Desktop",
+          "icon": "fa-brands fa-figma fa-lg",
+          "url": "https://www.figma.com/proto/HrLkBgrLJPWKsRLfLToNIy/Wedding-App-Design?node-id=2012-499&p=f&t=iNsT1lVsxnM3b7aD-1&scaling=scale-down&content-scaling=fixed&page-id=2012%3A304"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Laundryment - Laundry Website Design",
+      "description": "Designed a laundry service website for a client to showcase their services, prices, promotions, and customer testimonials.",
+      "category": "uiux",
+      "tools": ["Figma"],
+      "image": "./image/Laundryment.png",
+      "links": []
+    },
+    {
+      "id": 5,
+      "title": "Hija'i AR - Unity Mobile Application",
+      "description": "Thesis project - Designed an Augmented Reality application to help people learn hijaiyah letters and their reading skills.",
+      "category": "app-web",
+      "tools": ["Unity", "C#", "AR"],
+      "image": "./image/Hijai-AR.jpg",
+      "links": [
+        {
+          "type": "Demo",
+          "icon": "fa-solid fa-play-circle fa-lg",
+          "url": "https://cdn.dribbble.com/userupload/46840763/file/dfbcfe6c20de27cf898a819ce0850290.mp4"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Birthday Website with Light & Dark UI",
+      "description": "Designed a beautiful birthday website for a client to showcase their birthday details, memories, and photos.",
+      "category": "app-web",
+      "tools": ["HTML", "CSS", "JavaScript"],
+      "image": "./image/Birthday-Web.png",
+      "links": [
+        {
+          "type": "Live Site",
+          "icon": "fa-solid fa-desktop fa-lg",
+          "url": "https://ilhamuharam.github.io/BirthdayWeb/"
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Simono - Online Visitation Application",
+      "description": "Internship project - Designed a desktop application for online prisoners visitation with face recognition feature.",
+      "category": "app-web",
+      "tools": ["Web", "Application"],
+      "image": "./image/Simono.png",
+      "links": []
+    },
+    {
+      "id": 8,
+      "title": "4 Decennary - Sticker Set Design",
+      "description": "Designed a sticker pack for the 40th anniversary celebration of Sadaluhung Padjadjaran Drum Corps.",
+      "category": "graphic",
+      "tools": ["Adobe Illustrator", "Design"],
+      "image": "./image/Decennary.png",
+      "links": []
+    },
+    {
+      "id": 9,
+      "title": "T-Shirt Design - SPDC 2024 Program",
+      "description": "Designed an eye-catching t-shirt design for the Sadaluhung Padjadjaran Drum Corps to wear at the IDCI 2024 event.",
+      "category": "graphic",
+      "tools": ["Adobe Illustrator", "Design"],
+      "image": "./image/T-Shirt-1.jpg",
+      "links": []
+    },
+    {
+      "id": 10,
+      "title": "Social Media Feeds - SPDC 2019 - 2022",
+      "description": "Designed social media posts of Sadaluhung Padjadjaran Drum Corps, specifically Instagram for years.",
+      "category": "graphic",
+      "tools": ["Adobe Illustrator", "Design"],
+      "image": "./image/SPDC-Medsos.jpg",
+      "links": [
+          {
+            "type": "IG Feeds",
+            "icon": "fa-brands fa-instagram fa-lg",
+            "url": "https://www.instagram.com/p/B05JILBFKR-/"
+          }
+      ]
+    },
+    {
+      "id": 11,
+      "title": "Brass Ensemble - BMB Championship 2024",
+      "description": "Won 2nd place with the repertoire Hibike Euphonium! OST (Crescent Moon Dance) and Wonka OST (Pure Imagination).",
+      "category": "music",
+      "tools": ["Bandung DC", "Baritone"],
+      "image": "./image/BMBC-2024.jpg",
+      "links": [
+          {
+            "type": "The Performance",
+            "icon": "fa-solid fa-music fa-lg",
+            "url": "https://photos.app.goo.gl/VnBZgXAFESvbsR1E9"
+          }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Soundsport - IDC International 2024",
+      "description": "Won 3rd place in the Music Performance category for performing the reference song OST Fantastic Beast.",
+      "category": "music",
+      "tools": ["SPDC", "Mellophone"],
+      "image": "./image/IDCI-2024.jpg",
+      "links": [
+        {
+          "type": "The Performance",
+          "icon": "fa-solid fa-music fa-lg",
+          "url": "https://youtu.be/JG_jQ0GjKW0?si=Ps6OxXXR1dEaNvz6"
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "Triangle Calc Website - Coding Camp Project",
+      "description": "A website that calculates the area and perimeter of a triangle based on user input for the base and height.",
+      "category": "app-web",
+      "tools": ["HTML", "JavaScript"],
+      "image": "./image/Triangle-Web.png",
+      "links": [
+        {
+          "type": "Live Site",
+          "icon": "fa-solid fa-desktop fa-lg",
+          "url": "https://revou-coding-camp.github.io/16-jun-25-ilhamuharam/"
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "title": "Bookshelf Web App - Dicoding Final Project",
+      "description": "Designed a personal bookshelf web application with features like adding, removing, and viewing books.",
+      "category": "app-web",
+      "tools": ["HTML", "JavaScript"],
+      "image": "./image/Bookshelf-Web.png",
+      "links": [
+        {
+          "type": "Live Site",
+          "icon": "fa-solid fa-desktop fa-lg",
+          "url": "https://ilhamuharam.github.io/Bookshelf-App/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "K-Pop Bio Website - Dicoding Final Project",
+      "description": "A website that provides information about popular K-pop idols and groups, with a glassmorphism design.",
+      "category": "app-web",
+      "tools": ["HTML", "JavaScript"],
+      "image": "./image/Kpop-Bio-Web.png",
+      "links": [
+        {
+          "type": "Live Site",
+          "icon": "fa-solid fa-desktop fa-lg",
+          "url": "https://ilhamuharam.github.io/Kpop-Bio-Web/"
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Freelancer Website - Coding Camp Project",
+      "description": "A website for showcasing freelance services and simple leave a message feature made for RevoU's Coding Camp.",
+      "category": "app-web",
+      "tools": ["HTML", "JavaScript"],
+      "image": "./image/Freelancer-Web.png",
+      "links": [
+        {
+          "type": "Live Site",
+          "icon": "fa-solid fa-desktop fa-lg",
+          "url": "https://revou-coding-camp.github.io/codingcamp-30-jun-25-ilhamuharam/"
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "title": "Bunny Illustration - Personal Figma Project",
+      "description": "A digital illustration of a cute bunny referenced from another illustrator @只只 created using Figma.",
+      "category": "graphic",
+      "tools": ["Figma"],
+      "image": "./image/Bunny.jpg",
+      "links": []
+    },
+    {
+      "id": 17,
+      "title": "IFest 2018 - Seminar Nasional",
+      "description": "A Hanging X-banner design for Seminar Nasional in series of event of IFest 2018 by Himatif FMIPA Unpad.",
+      "category": "graphic",
+      "tools": ["Adobe Illustrator", "PowerPoint"],
+      "image": "./image/Banner-IFest.jpg",
+      "links": []
+    },
+    {
+      "id": 18,
+      "title": "Technopreneur 2019 - Photo Booth Banner",
+      "description": "A photo booth banner design for the Technopreneur 2019 event, created using Adobe Illustrator and Photoshop.",
+      "category": "graphic",
+      "tools": ["Adobe Illustrator", "Photoshop"],
+      "image": "./image/Technopreneur.jpg",
+      "links": []
+    },
+    {
+      "id": 19,
+      "title": "Banner for Sadaluhung Padjadjaran DC 2025",
+      "description": "A banner design for the Sadaluhung Padjadjaran Drum Corps 2025 event, created using Adobe Illustrator.",
+      "category": "graphic",
+      "tools": ["Adobe Illustrator"],
+      "image": "./image/Banner-2025.jpg",
+      "links": []
+    },
+    {
+      "id": 20,
+      "title": "Dr. Ranny's Clinic - Landing Page Redesign",
+      "description": "A redesigned landing page for Dr-Ranny's Clinic, featuring a fresh, clean and modern UI.",
+      "category": "uiux",
+      "tools": ["Figma"],
+      "image": "./image/Dr-Ranny.jpg",
+      "links": [
+        {
+          "type": "Mobile",
+          "icon": "fa-brands fa-figma fa-lg",
+          "url": "https://www.figma.com/proto/ZMk0ZgSqnJ5RhSvgrYLLrs/Redesign-Klinik-Dr.-Ranny?page-id=122%3A2&node-id=122-3&p=f&viewport=436%2C60%2C0.09&t=Tynoppju1lgukFI2-1&scaling=min-zoom&content-scaling=fixed"
+        },
+        {
+          "type": "Desktop",
+          "icon": "fa-brands fa-figma fa-lg",
+          "url": "https://www.figma.com/proto/ZMk0ZgSqnJ5RhSvgrYLLrs/Redesign-Klinik-Dr.-Ranny?page-id=1%3A4&node-id=45-526&p=f&viewport=368%2C45%2C0.09&t=k8VubQt7Elc307aj-1&scaling=scale-down-width&content-scaling=fixed"
+        },
+        {
+          "type": "Doc",
+          "icon": "fa-solid fa-book fa-lg",
+          "url": "https://www.figma.com/deck/TeUj6n9xFJHuuMmvD9pvJJ/DSF-39-Project-Portfolio?node-id=1-298&viewport=-94%2C-54%2C0.46&t=nBKCWKYwpiOcQDTo-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "title": "Rohis Nurul 'Ilmi 2020 - Logo Digitalization",
+      "description": "A digital logo design for the Rohis Nurul 'Ilmi 2020 event, created using Adobe Illustrator.",
+      "category": "graphic",
+      "tools": ["Adobe Illustrator"],
+      "image": "./image/Nuril.jpg",
+      "links": []
+    },
+    {
+      "id": 22,
+      "title": "Personal Branding Logo - Ilham Muharam",
+      "description": "A personal branding logo for myself with combining my initials (IM), created using Figma.",
+      "category": "graphic",
+      "tools": ["Figma"],
+      "image": "./image/Personal-Logo.png",
+      "links": []
+    },
+    {
+      "id": 23,
+      "title": "Eclipse Logo - Visual Identity Design",
+      "description": "A visual identity design for 5th gen of student association in Computer Science, Universitas Padjadjaran.",
+      "category": "graphic",
+      "tools": ["Figma"],
+      "image": "./image/Eclipse.png",
+      "links": []
+    },
+    {
+      "id": 24,
+      "title": "Budhi Pratama's Landing Page Redesign",
+      "description": "A redesigned landing page for Budhi Pratama's Clinic created using Figma, for UI UX Case Study.",
+      "category": "uiux",
+      "tools": ["Figma"],
+      "image": "./image/Budhi-Pratama.png",
+      "links": [
+        {
+          "type": "Mobile",
+          "icon": "fa-brands fa-figma fa-lg",
+          "url": "https://www.figma.com/proto/dyVpseBvJjG47E9OPfuo02/Redesign-Klinik-Budi-Pratama?page-id=2021%3A360&node-id=2021-361&viewport=435%2C60%2C0.08&t=CSzKQaWZckZ23gAM-1&scaling=min-zoom&content-scaling=fixed"
+        },
+        {
+          "type": "Desktop",
+          "icon": "fa-brands fa-figma fa-lg",
+          "url": "https://www.figma.com/proto/dyVpseBvJjG47E9OPfuo02/Redesign-Klinik-Budi-Pratama?page-id=3%3A11&node-id=125-1217&p=f&viewport=5%2C45%2C0.08&t=5XuKaazN1KKxjJAh-1&scaling=scale-down-width&content-scaling=fixed"
+        },
+        {
+          "type": "Doc",
+          "icon": "fa-solid fa-book fa-lg",
+          "url": "https://www.figma.com/deck/GwkaemLuB7OJQmQlcdZtHu/DSF-38-Project-Portfolio?node-id=1-310&viewport=-94%2C-54%2C0.46&t=5cROEiQ5ID1TxyUy-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1"
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "title": "Marching Show Band - WAMSB 2025",
+      "description": "Got 4th place in the World Association of Marching Show Band 2025 with the reference of Polyphia - Playing God.",
+      "category": "music",
+      "tools": ["SPDC", "Mellophone"],
+      "image": "./image/WAMSB-2025.jpg",
+      "links": [
+        {
+          "type": "The Performance",
+          "icon": "fa-solid fa-music fa-lg",
+          "url": "https://youtu.be/PotR2bYfpb4?si=lNAEkm9Nh0OJGfRd"
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "title": "Drum Corps - JDC International 2025",
+      "description": "Won 2nd place in the Drum Corps and won other 7 categories with Nirvana - Like a Teen Spirit as the reference.",
+      "category": "music",
+      "tools": ["SPDC", "Mellophone"],
+      "image": "./image/IDCI-2025.jpg",
+      "links": [
+        {
+          "type": "The Performance",
+          "icon": "fa-solid fa-music fa-lg",
+          "url": "https://youtu.be/DTuvXxQwEU0?si=205QyuITiaQZOYBn"
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "title": "Soundsport - Fornas VII 2023 Jawa Barat",
+      "description": "Won 2nd place in the Soundsport and Street Parade category with the main repertoire of Les Miserables.",
+      "category": "music",
+      "tools": ["Gita Pakuan", "Mellophone"],
+      "image": "./image/Fornas-2023.jpg",
+      "links": [
+        {
+          "type": "The Performance",
+          "icon": "fa-solid fa-music fa-lg",
+          "url": "https://youtu.be/w5HcTu39yy4?t=1363"
+        }
+      ]
+    }
+  ]
+}

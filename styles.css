@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: 'Josefin Sans', sans-serif;
     font-optical-sizing: auto;
@@ -13,14 +17,14 @@ body {
 
 nav {
     position: sticky;
-    overflow: hidden;
+    overflow: visible;
     top: 0;
-    padding: 32px;
-    padding-left: 0;
-    padding-right: 0;
+    padding: 32px 0;
+    height: 24px;
     font-size: 16px;
     background: rgba(255, 255, 255, 0.75);
     backdrop-filter: blur(20px);
+    z-index: 999;
 }
 
 nav a {
@@ -61,19 +65,65 @@ nav a {
 
 @media (max-width: 933px) { /* For smaller screens */
     .nav-a {
-        display: none; /* Hide the menu by default */
-        flex-direction: column; /* Stack menu items */
+        display: none;
+        flex-direction: column;
+        position: fixed;
+        width: 200px;
+        top: 102px;
+        right: 12px;
+        background: rgba(255, 255, 255, 0.90);
+        padding: 32px;
+        z-index: 999;
+        max-height: calc(100vh - 82px);
+        border-radius: 16px;
+        box-shadow: #63636333 0px 5px 15px;
+    }
+
+    .nav-a.active {
+        display: flex;
+    }
+
+    .nav-a a {
+        display: flex;
+        padding: 8px 24px;
+        justify-content: flex-end;
     }
 
     .nav-right {
         display: none;
         flex-direction: column;
+        position: fixed;
+        width: 200px;
+        top: 324px;
+        right: 12px;
+        background: rgba(255, 255, 255, 0.90);
+        box-shadow: #63636333 0px 5px 15px;
+        padding: 32px;
+        gap: 32px;
+        z-index: 999;
+        height: auto;
+        margin-right: 0;
+        border-radius: 16px;
+    }
+
+    .nav-right.active {
+        display: flex;
+    }
+
+    .nav-right div {
+        display: flex;
+        flex-direction: row;
+        gap: 8px;
     }
 
     .menu-toggle {
-        display: block; /* Show the toggle button */
+        display: block;
         float: right;
         margin-right: 10%;
+        background: none;
+        border: none;
+        cursor: pointer;
+        z-index: 1001;
     }
 }
 
@@ -102,11 +152,11 @@ footer {
     #home-content {
         padding: 40vh 10%;
     }
-  }
+}
 
   
-  /* If the screen size is 425px wide or less, set the font-size of <div> to 48px */
-  @media screen and (max-width: 375px) {
+/* If the screen size is 425px wide or less, set the font-size of <div> to 48px */
+@media screen and (max-width: 375px) {
     #name {
       font-size: 14vw;
     }
@@ -114,7 +164,7 @@ footer {
     #prename {
         font-size: 16px;
     }
-  }
+}
 
 .hero {
     height: 100vh;
@@ -159,12 +209,14 @@ footer {
     box-shadow: 5px 5px 20px rgba(107, 157, 245, 0.75);
     text-transform: uppercase;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .hero button:hover {
     background-image: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
     color: white;
     box-shadow: 5px 5px 20px rgba(245, 174, 107, 0.75);
+    transform: translateY(-3px);
 }
 
 .about button {
@@ -183,12 +235,14 @@ footer {
     text-transform: uppercase;
     text-align: center;
     cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .about button:hover {
     background-image: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
     color: white;
     box-shadow: 5px 5px 20px rgba(245, 174, 107, 0.75);
+    transform: translateY(-3px);
 }
 
 footer button {
@@ -206,12 +260,14 @@ footer button {
     background-image: linear-gradient(to right, #2B7ABD 0%, #39A0F7  100%);
     box-shadow: 5px 5px 20px rgba(107, 157, 245, 0.75);
     text-transform: uppercase;
+    transition: all 0.3s ease;
 }
 
 footer button:hover {
     background-image: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
     color: white;
     box-shadow: 5px 5px 20px rgba(245, 174, 107, 0.75);
+    transform: translateY(-3px);
 }
 
 .footer-info {
@@ -388,13 +444,63 @@ footer #h5-bold {
 
 .filter-button {
     display: flex;
+    align-items: center;
     justify-content: center;
     gap: 16px;
     padding: 48px 0;
-    flex-wrap: wrap;
+    position: relative;
 }
 
-.filter-button button {
+.filter-button-container {
+    display: flex;
+    gap: 16px;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    cursor: grab;
+    user-select: none;
+    margin: 0 50px;
+}
+
+.filter-button-container:active {
+    cursor: grabbing;
+}
+
+/* Hide scrollbar */
+.filter-button-container::-webkit-scrollbar {
+    display: none;
+}
+
+.filter-button-container {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.filter-button-nav {
+    position: absolute;
+    background: white;
+    border-radius: 1000em;
+    border: none;
+    color: #2B7ABD;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    z-index: 10;
+    box-shadow: 5px 5px 5px rgba(196, 203, 209, 0.5);
+}
+
+.filter-button-nav.prev {
+    left: 0;
+}
+
+.filter-button-nav.next {
+    right: 0;
+}
+
+.filter-button button:not(.filter-button-nav) {
     height: auto;
     padding: 8px 24px;
     border-radius: 1000em;
@@ -402,26 +508,43 @@ footer #h5-bold {
     font-size: 16px;
     font-weight: 700;
     color: #2B7ABD;
-    border-width: 3px;
+    border-width: 2;
     border-color: #2B7ABD;
     background-color: transparent;
     text-transform: uppercase;
     text-align: center;
     border: solid;
     cursor: pointer;
+    white-space: nowrap;
+    flex-shrink: 0;
 }
 
-/*.filter-button button:active {
-    background-image: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
-    color: white;
-    border: white;
-}*/
+.filter-button button:hover:not(.filter-active) {
+    color: #fa6400;
+}
 
-button.filter-active {
+.filter-button button:not(.filter-button-nav).filter-active {
     background: linear-gradient(to right, #fa6400 0%, #ffc400  100%);
     color: white;
-    border: none;
+    border: none !important;
+    border-width: 0 !important;
+    border-color: transparent !important;
     padding: 11px 27px;
+}
+
+@media (max-width: 768px) {
+    .filter-button {
+        padding: 24px 0;
+    }
+    
+    .filter-button-container {
+        padding: 0 50px;
+    }
+    
+    .filter-button button {
+        white-space: nowrap;
+        flex-shrink: 0;
+    }
 }
 
 nav a:hover {
@@ -457,10 +580,9 @@ nav a:hover {
     border-radius: 24px;
     overflow: hidden;
     padding: 16px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.5);
+    backdrop-filter: blur(10px);
     box-shadow: 5px 5px 30px rgba(196, 203, 209, 0.5);
-    transition: all 0.3s ease;
-    flex-grow: 1;
 }
 
 .card.hide {
