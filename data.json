@@ -396,13 +396,7 @@
       "category": "music",
       "tools": ["Gita Pakuan", "Mellophone"],
       "image": "./image/Supermoment-2025.jpg",
-      "links": [
-        {
-          "type": "The Performance",
-          "icon": "fa-solid fa-music fa-lg",
-          "url": "https://youtu.be/w5HcTu39yy4?t=1363"
-        }
-      ]
+      "links": []
     }
   ]
 }
