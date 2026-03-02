@@ -458,7 +458,7 @@ footer #h5-bold {
     -webkit-overflow-scrolling: touch;
     cursor: grab;
     user-select: none;
-    margin: 0 50px;
+    margin: 0 20px;
 }
 
 .filter-button-container:active {
@@ -592,8 +592,10 @@ nav a:hover {
 .label {
     display: flex;
     justify-content: flex-start;
-    gap: 4%;
+    gap: 8px;
     padding: 10px 0;
+    flex-wrap: wrap;
+    align-items: flex-start;
 }
 
 .card-title {
@@ -604,8 +606,11 @@ nav a:hover {
     text-align: center;
     background-color: #2B7ABD;
     color: white;
-    padding: 8px 5%;
+    padding: 8px 12px;
     border-radius: 1000em;
+    white-space: normal;
+    word-wrap: break-word;
+    max-width: fit-content;
 }
 
 .card-body {

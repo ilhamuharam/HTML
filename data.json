@@ -65,7 +65,7 @@
       "title": "Laundryment - Laundry Website Design",
       "description": "Designed a laundry service website for a client to showcase their services, prices, promotions, and customer testimonials.",
       "category": "uiux",
-      "tools": ["Figma"],
+      "tools": ["Adobe XD"],
       "image": "./image/Laundryment.png",
       "links": []
     },
@@ -89,7 +89,7 @@
       "title": "Birthday Website with Light & Dark UI",
       "description": "Designed a beautiful birthday website for a client to showcase their birthday details, memories, and photos.",
       "category": "app-web",
-      "tools": ["HTML", "CSS", "JavaScript"],
+      "tools": ["HTML", "CSS", "JS"],
       "image": "./image/Birthday-Web.png",
       "links": [
         {
@@ -104,7 +104,7 @@
       "title": "Simono - Online Visitation Application",
       "description": "Internship project - Designed a desktop application for online prisoners visitation with face recognition feature.",
       "category": "app-web",
-      "tools": ["Web", "Application"],
+      "tools": ["WPF", "XAML", "C#"],
       "image": "./image/Simono.png",
       "links": []
     },
@@ -113,7 +113,7 @@
       "title": "4 Decennary - Sticker Set Design",
       "description": "Designed a sticker pack for the 40th anniversary celebration of Sadaluhung Padjadjaran Drum Corps.",
       "category": "graphic",
-      "tools": ["Adobe Illustrator", "Design"],
+      "tools": ["Illustrator", "Photoshop"],
       "image": "./image/Decennary.png",
       "links": []
     },
@@ -122,7 +122,7 @@
       "title": "T-Shirt Design - SPDC 2024 Program",
       "description": "Designed an eye-catching t-shirt design for the Sadaluhung Padjadjaran Drum Corps to wear at the IDCI 2024 event.",
       "category": "graphic",
-      "tools": ["Adobe Illustrator", "Design"],
+      "tools": ["Illustrator", "Photoshop"],
       "image": "./image/T-Shirt-1.jpg",
       "links": []
     },
@@ -131,7 +131,7 @@
       "title": "Social Media Feeds - SPDC 2019 - 2022",
       "description": "Designed social media posts of Sadaluhung Padjadjaran Drum Corps, specifically Instagram for years.",
       "category": "graphic",
-      "tools": ["Adobe Illustrator", "Design"],
+      "tools": ["Illustrator", "Photoshop"],
       "image": "./image/SPDC-Medsos.jpg",
       "links": [
           {
@@ -176,7 +176,7 @@
       "title": "Triangle Calc Website - Coding Camp Project",
       "description": "A website that calculates the area and perimeter of a triangle based on user input for the base and height.",
       "category": "app-web",
-      "tools": ["HTML", "JavaScript"],
+      "tools": ["HTML", "CSS", "JS"],
       "image": "./image/Triangle-Web.png",
       "links": [
         {
@@ -191,7 +191,7 @@
       "title": "Bookshelf Web App - Dicoding Final Project",
       "description": "Designed a personal bookshelf web application with features like adding, removing, and viewing books.",
       "category": "app-web",
-      "tools": ["HTML", "JavaScript"],
+      "tools": ["HTML", "CSS", "JS"],
       "image": "./image/Bookshelf-Web.png",
       "links": [
         {
@@ -206,7 +206,7 @@
       "title": "K-Pop Bio Website - Dicoding Final Project",
       "description": "A website that provides information about popular K-pop idols and groups, with a glassmorphism design.",
       "category": "app-web",
-      "tools": ["HTML", "JavaScript"],
+      "tools": ["HTML", "CSS", "JS"],
       "image": "./image/Kpop-Bio-Web.png",
       "links": [
         {
@@ -221,7 +221,7 @@
       "title": "Freelancer Website - Coding Camp Project",
       "description": "A website for showcasing freelance services and simple leave a message feature made for RevoU's Coding Camp.",
       "category": "app-web",
-      "tools": ["HTML", "JavaScript"],
+      "tools": ["HTML", "CSS", "JS"],
       "image": "./image/Freelancer-Web.png",
       "links": [
         {
@@ -245,7 +245,7 @@
       "title": "IFest 2018 - Seminar Nasional",
       "description": "A Hanging X-banner design for Seminar Nasional in series of event of IFest 2018 by Himatif FMIPA Unpad.",
       "category": "graphic",
-      "tools": ["Adobe Illustrator", "PowerPoint"],
+      "tools": ["Illustrator", "PowerPoint"],
       "image": "./image/Banner-IFest.jpg",
       "links": []
     },
@@ -254,7 +254,7 @@
       "title": "Technopreneur 2019 - Photo Booth Banner",
       "description": "A photo booth banner design for the Technopreneur 2019 event, created using Adobe Illustrator and Photoshop.",
       "category": "graphic",
-      "tools": ["Adobe Illustrator", "Photoshop"],
+      "tools": ["Illustrator", "Photoshop"],
       "image": "./image/Technopreneur.jpg",
       "links": []
     },
@@ -263,7 +263,7 @@
       "title": "Banner for Sadaluhung Padjadjaran DC 2025",
       "description": "A banner design for the Sadaluhung Padjadjaran Drum Corps 2025 event, created using Adobe Illustrator.",
       "category": "graphic",
-      "tools": ["Adobe Illustrator"],
+      "tools": ["Illustrator"],
       "image": "./image/Banner-2025.jpg",
       "links": []
     },
@@ -297,7 +297,7 @@
       "title": "Rohis Nurul 'Ilmi 2020 - Logo Digitalization",
       "description": "A digital logo design for the Rohis Nurul 'Ilmi 2020 event, created using Adobe Illustrator.",
       "category": "graphic",
-      "tools": ["Adobe Illustrator"],
+      "tools": ["Illustrator"],
       "image": "./image/Nuril.jpg",
       "links": []
     },
@@ -315,7 +315,7 @@
       "title": "Eclipse Logo - Visual Identity Design",
       "description": "A visual identity design for 5th gen of student association in Computer Science, Universitas Padjadjaran.",
       "category": "graphic",
-      "tools": ["Figma"],
+      "tools": ["PowerPoint"],
       "image": "./image/Eclipse.png",
       "links": []
     },
