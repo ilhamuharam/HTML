@@ -81,6 +81,11 @@
           "type": "Demo",
           "icon": "fa-solid fa-play-circle fa-lg",
           "url": "https://cdn.dribbble.com/userupload/46840763/file/dfbcfe6c20de27cf898a819ce0850290.mp4"
+        },
+        {
+          "type": "Doc",
+          "icon": "fa-solid fa-book fa-lg",
+          "url": "https://www.figma.com/deck/lQ805ILkNMyvoeQvtGwLCB"
         }
       ]
     },
